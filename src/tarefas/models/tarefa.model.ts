@@ -4,8 +4,8 @@ import { Prioridade } from "./prioridade.enum.js";
 
 export class Tarefa extends EntidadeBase{
   public descricao: string;
-  public prioridade: Prioridade;
   public dataCriacao: Date;
+  public prioridade: Prioridade;
 
   constructor(descricao:string, prioridade: Prioridade, id?:string) {
     super();
